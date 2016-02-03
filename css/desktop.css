@@ -1,0 +1,272 @@
+		.training
+		{
+			margin:	0;
+			/*height: 778px;*/
+			height: 100%;
+    		width: 100%;
+    		background-color: #ececec;
+		}
+		.chapter-question
+		{
+/*
+			height: 562px;
+			padding: 0px 278px 0px 264px;*/
+/*
+
+			padding: 0px 0% 0px 18%;*/
+
+		}
+		.Chapter
+		{
+			list-style: none;
+    		color: #ffffff;
+    		background: linear-gradient(180deg, #1f3d5d, #3a4f70);
+    		padding:	0px;
+    		height:92%;
+    		cursor: pointer;
+		}
+		ul.Chapter>li
+		{
+			padding-left: 14%;
+    		height: 8%;
+    		padding-top: 1%;
+    		background: linear-gradient(180deg, #213e5e, #f3f3f3);
+		}
+		
+		ul.Chapter>li>h4
+		{
+			float:left;
+			margin-top: 4%;
+		}
+		
+		ul.Chapter>li>div
+		{
+				float: left;
+				width: 0;
+				height: 0;
+				border-top: 7px solid transparent;
+				border-bottom: 7px solid transparent;
+				border-left: 7px solid;
+				margin: 5%;
+				margin-left: 46%;
+				/* transform: rotate(90deg); */
+				/* cursor: pointer; */
+				/* transition-delay: 1s; */
+				animation-duration: 4s;
+		}
+		.ChapterArrowRotate
+		{
+			transform: rotate(90deg);
+		}
+		ul.SubChapter
+		{
+			padding:0;
+		}
+		ul.SubChapter>li:last-child 
+		{ 
+			border-bottom: none; 
+		}
+		ul.SubChapter>li
+		{
+			padding-top: 1%;
+			height: 0%;
+			text-align: center;
+			border-bottom: 1pt solid white;
+		}
+		.chapter-bar
+		{
+			float:left;
+			width:	208px;
+			/*height: 562px;*/
+			height: 100%;
+			border: 1px solid #21314c;
+			background: linear-gradient(180deg, #1f3d5d, #3a4f70);
+		}
+		.SubChapter
+		{
+			list-style: none;
+			cursor: pointer;
+			background: linear-gradient(180deg, #213e5e, #2e4464);	
+			display:none;
+		}
+		.chapterbox
+		{
+			/*height:562px;*/
+/*
+			height:100%;
+			border: 2px solid #21314c;*/
+
+			margin: 0 auto;
+			height: 562px;
+    		width: 738px;
+    		border: 2px solid #21314c;
+    		left: 50%;
+		}
+		.BoxParent
+		{
+			float: left;
+		    height: 14%;
+    		width: 20%;
+		    border: 2px solid #f8f9fb;
+		    margin: 10px;
+		    background: white;
+		    /* text-align: center; */
+		   position:relative;
+		    border-radius: 7px;
+		    background: linear-gradient(90deg, #213e5e, #f3f3f3);
+		    padding: 10px 0px 10px 0px;
+		    z-index:1;
+    	}
+    	
+    	.SubChapterOpen
+    	{
+    		display:block;
+    	}
+    	.BoxChild
+    	{
+    		height: 102%;
+    		width: 100%;
+			padding-left: 9%; 
+			background: white;
+			padding: 10%;
+			cursor: pointer;
+    	}
+		.Questions
+		{
+			float: left;
+		    /*width: 70.98%;*/
+		    width:71.6%;
+    		height: 100%;
+		    /* left: 29.3%; */
+		    position: relative;
+		    background-image: url('../Images/Training/chessbackground.jpg');
+		    padding: 6%;
+		    overflow: auto;
+		    padding-top: 0;
+		  /*  z-index:1;*/
+		}
+		
+		.Questions::after{
+			content: "";
+		    width: 100%;
+    		height: 100%;
+		    /* left: 29.3%; */
+		   opacity:0.8;
+		    position: absolute;
+		    top:0;
+		    left:0;
+		    
+		    background-image: 
+		    url('../Images/Training/background_img.png');
+		    /*padding: 6%;*/
+		    overflow: auto;
+		    padding-top: 0;
+		    
+		}
+		#puzzle
+		{
+			color: white;
+    		text-align: center;
+    		z-index:1;
+    		position:relative;
+		}
+		#board{
+			z-index:1;
+    		position:relative;
+    		/*margin-left: 8%;*/
+		}
+		#tabNextPrev
+		{
+			/*
+			float: left;
+						padding-top: 3%;
+						width: 100%;*/
+			
+		}
+		
+		
+		#tabNextText
+		{
+			float:left;
+			padding-left: 5%;
+		}
+		#tabNextText1
+		{
+			float: left;
+    		padding-top: 3%;
+			color: white;
+			z-index:1;
+    		position:relative;
+		}
+		#tabPrevText
+		{
+			float:left;
+			padding-left: 29%;
+		}
+		#tabPrevText1
+		{
+			float: left;
+    		padding-top: 3%;
+			color: white;
+			z-index:1;
+    		position:relative;
+		}
+		#tabNext
+		{/*
+		
+					margin-left: 103%;*/
+			float:left;
+			cursor:pointer;		
+    		margin-top: 10%;
+			width: 0;
+			height: 0;
+			border-top: 7px solid transparent;
+			border-bottom: 7px solid transparent;
+			border-left: 7px solid;
+			/*margin-left: 46%;*/
+			color:white;
+			z-index:1;
+    		position:relative;
+		}
+		#tabPrev
+		{
+			float: left;
+    		margin-top: 9%;
+			width: 0;
+			height: 0;
+			border-top: 7px solid transparent;
+			border-bottom: 7px solid transparent;
+			border-left: 7px solid;
+			/*margin-left: 46%;*/
+			color:white;
+			z-index:1;
+    		position:relative;
+    		transform: rotate(180deg);
+    		cursor: pointer;
+		}
+		#tabQuestionText
+		{
+			float:left;
+			color:white;
+			z-index:1;
+    		position:relative;
+    		padding-left: 5%;
+		}
+		#chaptertxt
+		{
+			margin:4%; 
+			color:white; 
+			text-align: center;
+			font-size: 110%;
+    		font-weight: bolder;
+		}
+		.levelDialogueDisplay>div
+		{
+    		float: left;
+    		margin: 5%;
+    		padding: 5%;
+    		border-radius: 7px;
+		    background: linear-gradient(180deg, #213e5e, #f3f3f3);
+		    cursor:pointer;
+		}
+		overflow: auto;

@@ -1,0 +1,1022 @@
+/*Header*/
+	.nav  ul {
+      display: none;
+      height: 100%;
+    }
+    
+    .container-fluid{
+    	text-align:center;
+    }	
+
+    .menuLabel {
+      	position: relative;
+		display: block;
+		width: 100%;
+    }
+
+    .menuLabel:after {
+	    position: absolute;
+		content: "\2261";
+		top: 0px;
+		left: 0px;
+		font-size: 40px;
+	}
+    
+    input:checked > ul {
+      display: block;
+    
+             
+    }
+    
+    input:checked > ul > li{
+    		width: 100%;
+      } 
+
+
+}
+
+a{
+	text-decoration: none;
+	color: #4c4c4c;
+}
+
+body{
+	margin:0;
+}
+
+#login-container{
+	background: #f5f5f5;
+	display: table;
+	width: 100%;
+}
+
+#logo-wrapper{
+	float: left;
+	/* padding: 30px 0 0px 84px; */
+	color: #1b293e;
+	font-size: 20px;
+	/* left: 21%; */
+	width: 100%
+}
+
+
+
+.main-logo-tagline{
+	float:left;
+	display:none;
+}
+
+#login-wrapper{
+	display:none;
+}
+
+.login{
+	padding:10px;
+}
+
+.register{
+	padding:5px;
+}
+
+a{
+	text-decoration: none;
+	color: #4c4c4c;
+}
+
+#primary-nav{
+	margin: 11px;
+	display:table-header-group;
+}
+
+.header-lvl1{
+	list-style-type: none;
+	padding-top: 15px;
+}
+
+.header-lvl1>li{
+	float: left;
+	padding: 6px 25px 6px 25px;
+}
+
+.header-lvl1>li>a>span{
+	color: #727272;
+	font-family: arial;
+	font-size: 14px;
+}
+
+.active{
+	border-radius: 5px;
+	background: white;
+	box-shadow: 2px 2px 1px grey
+
+}
+
+
+
+
+/*Main area*/
+
+.mainContentArea>img{
+	display:none;
+}
+.contentDiv{
+	
+	display: table;
+	width: 100%;
+}
+.mainContentArea{
+	position: relative;
+	text-align: center;
+        float:left;
+        background:#e8e8e8;
+
+}
+.mainContentArea>ul{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.clubInfo{
+	position:relative;
+	width: 14.5em;
+height: 106px;
+padding-left:4em;
+padding-top:3em;
+}
+.clubInfo:after{
+	background-image: url('../images/ClubInfo.jpg');
+content: ' ';
+width: 14.5em;
+height: 106px;
+position: absolute;
+left: 0;
+top: 0;
+text-align: center;
+padding-top: 1em;
+/* z-index: -1; */
+/* color: white; */
+opacity: 0.3;
+margin-left: 3.5em;
+}
+
+.bestPlayers{
+	width: 14.5em;
+	height: 106px;
+	position: relative;
+	padding-left:4em;
+	padding-top:3em;
+}
+
+.bestPlayers:after{
+	content:' ';
+	background-image: url('../images/BestPlayers.jpg');
+	width: 14.5em;
+	height: 106px;
+	position: absolute;
+	text-align: center;
+	padding-top: 1em;
+	left:0;
+	top:0;
+	/*
+	z-index:-1;
+		*/
+	/* color: white; */
+	opacity: 0.3;
+	margin-left: 3.5em;
+/*	z-index: 0;*/
+}
+
+.bestPlayersElem{
+	text-align:center;
+        float:left;
+	width:100%;
+        background:#e8e8e8;
+}
+
+.latestNews{
+	width: 14.5em;
+	height: 106px;
+	position: relative;
+	padding-left: 4em;	
+	padding-top: 3em;
+}
+
+.latestNews:after{
+	content:' ';
+	background-image: url('../images/LatestNews.jpg');
+	width: 14.5em;
+	height: 106px;
+	position: absolute;
+	left:0;
+	top:0;
+	text-align: center;
+	padding-top: 1em;
+	/*
+	z-index:-1;
+		*/
+	/* color: white; */
+	opacity: 0.3;
+	margin-left: 3.5em;
+/*	z-index: 0;*/
+}
+
+.blueImageClass
+{
+position:absolute;
+left:0px;
+top:0px;
+z-index:0;
+height: 100%;
+width: 100%;
+}
+.chessImageClass
+{
+position:absolute;
+left:0px;
+top:0px;
+z-index:0;
+opacity: 0.8;
+height: 100%;
+width: 100%;
+}
+.mainContentArea>ul>li{
+	display: inline;
+	float:left;
+}
+.mainContentArea>ul>li>div>img{
+	display: none;
+}
+.welcomeElem{
+	display: none;	
+	text-align: center;
+
+}
+
+.clubLabel{
+	font-size: 25.29px;
+	font-family: monospace;
+	display: block;
+	/* text-align: center; */
+	margin: 0;
+	z-index: 1;
+	text-align: center;
+	position: relative;
+}
+.infoLabel{
+	font-family: Lucida;
+	font-style: oblique;
+	font-size: 23.29px;
+	display: block;
+	/* text-align: center; */
+	margin: 0;
+	z-index: 1;
+	text-align: center;
+	position: relative;
+}
+.latestLabel{
+	font-size: 25.29px;
+font-family: monospace;
+display: block;
+/* text-align: center; */
+margin: 0;
+z-index: 1;
+text-align: center;
+position: relative;
+}
+.newsLabel{
+	font-family: Lucida;
+	font-style: oblique;
+	font-size: 23.29px;
+	
+display: block;
+/* text-align: center; */
+margin: 0;
+z-index: 1;
+text-align: center;
+position: relative;
+}
+.bestLabel{
+	font-size: 25.29px;
+	font-family: monospace;
+	display: block;
+	/* text-align: center; */
+	margin: 0;
+	z-index: 1;
+	text-align: center;
+	position: relative;
+}
+.playersLabel{
+	font-family: Lucida;
+	font-style: oblique;
+	font-size: 23.29px;
+	display: block;
+	/* text-align: center; */
+	margin: 0;
+	z-index: 1;
+	text-align: center;
+	position: relative;
+}
+.welcomeLabel{
+	font-family: impact;
+	font-size: 23.52pt;
+	margin: 0;
+	color: #073e72;
+}
+.welcomeElem>p{
+	margin: 0;
+}
+
+.rightArrow{
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+/*
+.logo{
+	text-align: center;
+}*/
+
+.bestQuotesElem{
+	text-align: center;
+        
+}
+.bestChessPlayersLabel{
+	font-family: MYRIAD PRO;
+	font-style: REGULAR;
+	font-size: 21.04px;
+	color: black
+	}
+.bestQuotesLabelOne{
+	font-family: IMPACT;
+	font-size: 24pt;
+	color: #073e72;
+	margin: 0;	
+}
+
+.bestQuotesLabelTwo{
+	font-family: IMPACT;
+	font-size: 24pt;
+	color: #83b13a;
+	margin: 0;	
+}
+
+.quotesLeftArrow{
+	padding-top: 1.5em;
+	width: 5%;
+}
+.quotesImage{
+	width:15%;
+}
+
+
+.quotesRightArrow{
+	padding-bottom: 1.5em;
+	width:5%;
+	transform: rotate(180deg);
+}
+
+.quotesDiv>*{
+	float:left;
+}
+.quotesDiv>p{
+	width: 75%;
+	padding: 0px;
+}
+
+/*Footer*/
+
+.footer-ul{
+	list-style-type:none;
+	margin:0;
+	padding:10px 0 10px 0;
+}
+
+.footer-ul > li > a >span{
+	color:white;
+}
+
+
+.footer-nav-wrapper{
+	text-align: center;
+	background: #4b6591;
+}
+
+
+.footer-ul > li {
+	padding: 5px;
+}
+
+.footer-ul > li > a >span {
+	color: white;
+}
+
+.footer-copyright {
+	color: white;
+}
+.logo{
+	display: none;
+}
+.thirdDiv{
+	display: none;
+}	
+
+#logo-wrapper-login-page{
+	
+    float: left;
+    padding: 0px 0 0px 0;
+    color: #1b293e;
+    font-size: 2em;
+    width: 100%;	
+}
+
+.blueImageClassCopy
+{
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:0;
+	height: 100%;
+	width: 100%;
+}
+.chessImageClassCopy
+{
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:0;
+	opacity: 0.8;
+	height: 100%;
+	width: 100%;
+}
+.mainlogindiv{
+	
+    width: 100%;
+    height: 100%;    
+    -webkit-box-shadow: 2px 4px 2px 4px #4b6591;
+    -moz-box-shadow: 2px 4px 2px 4px #4b6591;
+    
+    background-color: white;
+    position: absolute;
+}
+.otherlogin{
+	width: 100%;
+	text-align: center;	
+	height: 35%;
+	float: left;
+}
+
+button{
+	height: 40%;
+	width: 100%;
+	float: left;
+}
+.facebookicon{
+	background-image: url("../images/Facebook_icon.png");
+
+}
+.gmailicon{
+	background-image: url("../images/Gmail_Icon.png");
+
+}
+.inputdiv{
+	
+	float:left;
+	width:100%;
+	height: 100%;	
+}
+
+.inputdiv input{
+	
+		font-size: 1.2em;/*margin: 0.5em;*/
+	color: #4b6591;
+	line-height: 2;
+	width: 100%;
+}
+
+.inputdiv label{
+	
+    margin: 0.5em;
+    line-height: 2;
+    font-weight: bold;
+    font-size: 13px;
+
+}
+
+
+.icon{
+	background-color: transparent;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-size: 5em;
+	background-position: center;
+	border: none;
+	background-repeat: no-repeat;
+}
+
+.footer-nav-wrapper-login-page{
+	text-align: center;
+	background: #4b6591;
+}
+.footer-ul-login-page > li > a >span{
+	color:#4B6591;
+}
+
+.footer-ul-login-page{
+	margin:0;
+	padding-top:20px;
+}
+
+.footer-ul-login-page > li{
+	padding:3px;
+	float:left;
+}
+.footer-ul-login-span{	
+	border-right: 0.063em solid #4B6591;
+	padding-right: 0.3em;
+}
+
+.training
+		{
+			margin:	0;
+			/*height: 778px;*/
+			height: 100%;
+    		width: 100%;
+    		background-color: #ececec;
+		}
+		.chapter-question
+		{
+/*
+			height: 562px;
+			padding: 0px 278px 0px 264px;*/
+/*
+
+			padding: 0px 0% 0px 18%;*/
+			overflow: hidden;
+		    /*height: 1400px;*/
+		   	height: 100vh;
+		    width: 979px;
+		    border: 2px solid #21314c;
+		    top: 0%;
+		}
+		
+		.Chapter
+		{
+			list-style: none;
+    		color: #ffffff;
+    		background: linear-gradient(180deg, #1f3d5d, #3a4f70);
+    		padding:	0px;
+    		height:92%;
+    		cursor: pointer;
+		}
+		ul.Chapter>li
+		{
+			padding-left: 14%;
+    		height: 8%;
+    		padding-top: 1%;
+    		background: linear-gradient(180deg, #213e5e, #f3f3f3);
+		}
+		
+		ul.Chapter>li>h4
+		{
+			float:left;
+			margin-top: 4%;
+			font-size: 39px;
+		}
+		
+		ul.Chapter>li>div
+		{
+				float: left;
+				width: 0;
+				height: 0;
+				border-top: 15px solid transparent;
+				border-bottom: 15px solid transparent;
+				border-left: 15px solid;
+				margin: 5%;
+				margin-left: 46%;
+				/* transform: rotate(90deg); */
+				/* cursor: pointer; */
+				/* transition-delay: 1s; */
+				animation-duration: 4s;
+		}
+		.ChapterArrowRotate
+		{
+			transform: rotate(90deg);
+		}
+		.Level
+		{
+			list-style: none;
+    		color: #ffffff;
+    		background: linear-gradient(180deg, #1f3d5d, #3a4f70);
+    		padding:	0px;
+    		height:92%;
+    		cursor: pointer;
+		}
+		ul.Level>li
+		{
+			padding-left: 14%;
+    		height: 8%;
+    		padding-top: 1%;
+    		background: linear-gradient(180deg, #213e5e, #f3f3f3);
+		}
+		
+		ul.Level>li>h4
+		{
+			float:left;
+			margin-top: 4%;
+			font-size: 39px;
+		}
+		ul.SubChapter
+		{
+			padding:0;
+		}
+		ul.SubChapter>li:last-child 
+		{ 
+			border-bottom: none; 
+		}
+		ul.SubChapter>li
+		{
+			padding-top: 1%;
+			height: 0%;
+			text-align: center;
+			border-bottom: 1pt solid white;
+		}
+		ul.SubChapter>li>h6
+		{
+			font-size: 30px;
+		}
+		.level-bar
+		{			    
+		    width: 49%;
+		    /*height: 96%;*/
+		   height: 100vh;
+		    position: absolute;
+		    border: 1px solid #21314c;
+		    background: linear-gradient(180deg, #1f3d5d, #3a4f70);
+		    /* left: 2%; */
+		    z-index: 1;
+		    left: 51%;
+		    top:0			
+		}
+		.level-bar>h3
+				{
+					margin:4%; 
+					color:white; 
+					text-align: center;
+					font-size:231%
+				}
+		
+		.chapter-bar
+		{
+			    
+    width: 52%;
+    /*height: 96%;*/
+   height: 100vh;
+    position: absolute;
+    border: 1px solid #21314c;
+    background: linear-gradient(180deg, #1f3d5d, #3a4f70);
+    /* left: 2%; */
+    z-index: 1;
+    margin-left: 0%;
+			
+		}
+		.chapter-bar>h3
+		{
+			font-size: 36px;
+		}
+		.SubChapter
+		{
+			list-style: none;
+			cursor: pointer;
+			background: linear-gradient(180deg, #213e5e, #2e4464);	
+			display:none;
+		}
+		.chapterbox
+		{
+			/*height:562px;*/
+/*
+			height:100%;
+			border: 2px solid #21314c;*/
+			
+			    
+    height: 100%;
+    width: 126%;
+    /* border: 2px solid #21314c; */
+    /* top: 0%; */
+    /* left: -30%; */
+    margin-left: -52%;
+		}
+		.BoxParent
+		{
+			float: left;
+		    height: 14%;
+    		width: 20%;
+		    border: 2px solid #f8f9fb;
+		    margin: 10px;
+		    background: white;
+		    /* text-align: center; */
+		   position:relative;
+		    border-radius: 7px;
+		    background: linear-gradient(90deg, #213e5e, #f3f3f3);
+		    padding: 10px 0px 10px 0px;
+		    z-index:1;
+    	}
+    	
+    	.SubChapterOpen
+    	{
+    		display:block;
+    	}
+    	.BoxChild
+    	{
+    		height: 95%;
+    		width: 100%;
+			padding-left: 9%; 
+			background: white;
+			padding: 10%;
+			cursor: pointer;
+			    font-size: 36px;
+    	}
+		.Questions
+		{
+			position: relative;
+    background-image: url('../Images/Training/chessbackground.jpg');
+    /* padding: 6%; */
+    overflow: auto;
+    padding-top: 0;
+    margin-left: 41%;
+    height:100%;
+    width:89%;
+		}
+		
+		.Questions::after{
+			content: "";
+		    width: 90%;
+    		height: 100%;
+		    /* left: 29.3%; */
+		   opacity:0.8;
+		    position: absolute;
+		    top:0;
+		    left:0;
+		    
+		    background-image: 
+		    url('../Images/Training/background_img.png');
+		    /*padding: 6%;*/
+		    overflow: auto;
+		    padding-top: 0;
+		    
+		}
+		#puzzle
+		{
+			float: left;
+    /* align-content: center; */
+    padding-left: 0%;
+    width:100%;
+		}
+		#puzzle>h3
+		{
+			color: white;
+    		text-align: center;
+    		z-index:1;
+    		position:relative;
+    		font-size: 39px;
+		}
+		#board{
+			float:left;
+			z-index:1;
+    		position:relative;
+    		width: 88%;
+    		margin-left: 1%;
+		}
+		#tabNextPrev
+		{
+			/*
+			float: left;
+						padding-top: 3%;
+						width: 100%;*/
+			
+		}
+		
+		
+		#tabNextText
+		{
+			float:left;
+			padding-left: 5%;
+		}
+		#tabNextText1
+		{
+			float: left;
+    		padding-top: 3%;
+			color: white;
+			z-index:1;
+    		position:relative;
+    		font-size: 42px;
+		}
+		#tabPrevText
+		{
+			float:left;
+			padding-left: 29%;
+		}
+		#tabPrevText1
+		{
+			float: left;
+    		padding-top: 3%;
+			color: white;
+			z-index:1;
+    		position:relative;
+    		font-size: 42px;
+		}
+		#tabNext
+		{/*
+		
+					margin-left: 103%;*/
+			float:left;
+			cursor:pointer;		
+    		margin-top: 10%;
+			width: 0;
+			height: 0;
+			border-top: 20px solid transparent;
+			border-bottom: 20px solid transparent;
+			border-left: 20px solid;
+			/*margin-left: 46%;*/
+			color:white;
+			z-index:1;
+    		position:relative;
+		}		
+		#tabPrev
+		{
+			float: left;
+    		margin-top: 9%;
+			width: 0;
+			height: 0;
+			border-top: 20px solid transparent;
+			border-bottom: 20px solid transparent;
+			border-left: 20px solid;
+			/*margin-left: 46%;*/
+			color:white;
+			z-index:1;
+    		position:relative;
+    		transform: rotate(180deg);
+    		cursor: pointer;
+		}
+		#tabQuestionText
+		{
+			float:left;
+			color:white;
+			z-index:1;
+    		position:relative;
+    		padding-left: 5%;
+    		font-size: 42px;
+		}
+		.levelDialogueDisplay>div
+		{
+    		float: left;
+    		margin: 5%;
+    		padding: 5%;
+    		border-radius: 7px;
+		    background: linear-gradient(180deg, #213e5e, #f3f3f3);
+		    cursor:pointer;
+		}
+		#Slide
+		{/*
+		
+					margin-left: 103%;*/
+			float:left;
+			cursor:pointer;		
+    		margin-top: 0%;
+			width: 45%;
+			/*
+			border-top: 20px solid transparent;
+						border-bottom: 20px solid transparent;
+						border-left: 20px solid;*/
+			
+			/*margin-left: 46%;*/
+			padding-left: 14%;
+    		height: 8%;
+    		padding-top: 1%;
+    		background: linear-gradient(180deg, #213e5e, #f3f3f3);
+			color:white;
+			z-index:1;
+    		position:relative;
+		}
+		#Slide>h3
+		{
+			font-size: 276%;
+		}
+		#LevelSlide
+		{/*
+		
+					margin-left: 103%;*/
+			float:left;
+			cursor:pointer;		
+    		margin-top: 0%;
+			width: 45%;
+			/*
+			border-top: 20px solid transparent;
+						border-bottom: 20px solid transparent;
+						border-left: 20px solid;*/
+			
+			/*margin-left: 46%;*/
+			padding-left: 14%;
+    		height: 8%;
+    		padding-top: 1%;
+    		background: linear-gradient(180deg, #213e5e, #f3f3f3);
+			color:white;
+			z-index:1;
+    		position:relative;
+		}
+		#LevelSlide>h3
+		{
+			font-size: 276%;
+		}
+		#chaptertxt
+		{
+			margin:4%; 
+			color:white; 
+			text-align: center;
+			font-size: 264%;
+    		font-weight: bolder;
+		}
+
+		/*two Player Chess mobile*/
+	.loggedInUsersDiv{
+		    text-align: center;
+    width: 50%;
+    height: 400px;
+    float: left;
+    background: #e8e8e8;
+    color: #4b6591;
+    font-weight: bold;
+    font-size: 22px;
+	}
+	.request{
+		    width: 50%;
+    /* left: 50%; */
+    float: left;
+    position: relative;
+    top: 0;
+    height: 400px;
+    /* margin: 0px; */
+    background-color: #1b293e;
+	}
+	.userRequest{
+		color: white;
+    padding: 10px;
+    font-size: 21px;
+	}				
+    .yes,.no{
+    	    height: 40%;
+    width: 17%;
+    color: #4b6591;
+    font-weight: bold;
+    }
+
+    #board{
+    	width: 350px !important;
+    	margin-top: 50px !important;
+    }
+
+    .buttonPanel{
+    	float: left;
+    	width: 100%;
+    	padding: 10px;
+    }
+
+    .buttonPanelButtons{
+    	float: left;
+	    width: 27%;
+	    margin: 10px;
+    }
+
+    .player1{
+    	    top: 60px;
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    /* font-size: 10px; */
+    text-align: center;
+    }
+    .player1Name,.player2Name{
+    	font-size: 16px !important;
+    }
+    .player1Color,.player2Color{
+    	font-size: 20px;
+    }
+    .player2{
+    	        top: 60px;
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    /* font-size: 10px; */
+    left: 50%;
+    text-align: center;
+    }
+
+.playerSelected{
+	transform: scale(1);
+}
+
+.playerNotSelected{
+	color: lightgrey;
+}
